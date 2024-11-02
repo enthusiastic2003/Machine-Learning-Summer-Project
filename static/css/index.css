@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600&family=Oswald:wght@700&family=Prompt:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&display=swap');
+/* Please add the css code for home page here */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+    background-image: url("../images/start/back1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headers {
+  text-transform: uppercase;
+
+  color: #7843e6;
+  font-family: Alegreya;
+  font-size: 45px;
+  text-align: center;
+  border: 2px solid white;
+}
+
+.container {
+  
+  margin-top: 0px;/*Change position of image container here*/
+  flex-wrap: wrap;
+  align-items: center; /* Aligns items vertically */
+  justify-content: center; /* Centers items horizontally */
+  padding-top: 110px;
+  padding-bottom: 120px;
+  padding-right: 70px;
+  background-color: #7943e648;
+  height: 1000px;
+  gap: 50px;
+  overflow: auto;
+}
+.images {
+  display: flex;
+  flex-direction: row;  /*Change it to column and see if it looks better*/
+  justify-content: space-around;
+}
+.member-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 2%;
+    margin-top: 0%;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    float: left;
+    border: 2px;
+    border-color: #7943e648;
+    transition: transform 0.3s;
+}
+
+.member-img:hover{
+    transform: scale(1.1);
+}
+
+.image-caption {
+  color: white;
+  font-family: 'Trebuchet MS', monospace; /*Change Font for names here*/
+  font-size: 30px;
+  text-align: left;
+  width: 250px;
+
+
+}
+
+.start-button {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10%;
+}
+
+.button {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    background-image: url("../images/start/start_nofocus.png");
+    background-size: cover;
+    transition: background-image 0.3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-image: url("../images/start/start_focus.png");
+    
+}
