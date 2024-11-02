@@ -13,8 +13,8 @@ This tool is designed to empower users without prior knowledge of Machine Learni
 
 ## Setup and Installation
 1. First, clone the project repository by running:  
-git clone https://github.com/ayushraina2028/Data-Analytics-and-Machine-Learning-Tool.git
-
+git clone [[https://github.com/enthusiastic2003/Machine-Learning-Summer-Project.git](https://github.com/enthusiastic2003/Machine-Learning-Summer-Project.git)
+](https://github.com/enthusiastic2003/Machine-Learning-Summer-Project.git)
 After pressing **Enter**, the repository will be cloned to your local system.
 2. Next, install the dependencies listed in the requirements file by running:
 pip install -r requirements.txt
